@@ -38,7 +38,7 @@ Build and Run
 
 
 
-With the arguments the loging can be adjusted
+With the arguments the logging can be adjusted
  -L abcd where abcd is 0....9 and represent the log level FATAL.....ALL
     a    org.jgroups  default 3
      b   org.infinispan default 0
