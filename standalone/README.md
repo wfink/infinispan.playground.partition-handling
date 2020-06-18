@@ -22,7 +22,7 @@ Build and Run
 2. To run the application with different UDP settings set MAVEN_OPTS to run the exec command
    This is helpful if you run instances on different machines as the default bind address is localhost
 
-       MAVEN_OPTS="-Dinfinispan.cache.bind_addr=<your IP address>" mvn exec:java [-Dexec.args="-L 3099 -F my.log -C"]
+       MAVEN_OPTS="-Dinfinispan.bind_addr=<your IP address>" mvn exec:java [-Dexec.args="-L 3099 -F my.log -C"]
 
    For available properties, or to add some, see src/main/resources/.xml files
 
